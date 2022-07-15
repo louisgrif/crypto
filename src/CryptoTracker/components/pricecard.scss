@@ -11,21 +11,23 @@
     box-shadow: 4px;
     margin: 10px;
     max-height: 110px;
-    max-width: 231px;
+    max-width: 230px;
     min-height: 110px;
-    min-width: 231px;
+    min-width: 230px;
+
+    position: relative;
 
     &__heading{
         color: #0560E8;
         font-weight: 500;
-        font-size: 18px;
-        position: relative;
+        font-size: 20px;
+        position: absolute;
         padding: 0;
         margin: 0;
         display: flex;
         white-space: nowrap;
-        top: 20px;
-        left: 20px;
+        top: 15px;
+        left: 15px;
     }
 
     &__price{
@@ -37,9 +39,9 @@
         margin: 0;
         color: #000;
         white-space: nowrap;
-        position: relative;
-        top: 20px;
-        left: 20px;
+        position: absolute;
+        top: 50px;
+        left: 15px;
     }
 
     &__timestamp{
@@ -51,8 +53,8 @@
         margin: 0;
         color: #5a5a5a;
         white-space: nowrap;
-        position: relative;
-        top: 3px;
-        left: 165px;
+        position: absolute;
+        right: 15px;
+        top: 20px;
     }
 }

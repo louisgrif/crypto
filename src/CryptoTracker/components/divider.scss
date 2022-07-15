@@ -9,18 +9,21 @@
     margin: 0 auto;
     padding: 0;
 
-    width: 100%;
+    width: 1000px;
+
+    position: relative;
 
     &__header {
-        position: relative;
-        top: -3px;
-        left: 225px;
+        width: 300px;
+        position: absolute;
+        left: 350px;
+        top: -20px;
     }
 
     &__time {
-        position: relative;
-        top: -3px;
-        left: 810px;
+        position: absolute;
+        right: 50px;
+        top: -20px;
 
         &__hidden {
             display: none;
@@ -30,9 +33,9 @@
     &__refresh {
         color: #7B61FF;
         size: 14px;
-        position: relative;
-        left: 1069px;
-        top: 2px;
+        position: absolute;
+        right: 5px;
+        top: -22px;
         
         &:hover {
             cursor: pointer;
@@ -52,9 +55,9 @@
     padding: 0;
     margin: 0 auto;
     &__bar {
-        width: 994px;
+        width: 1000px;
         height: 2px;
-        margin-bottom: 46px;
+        margin-bottom: 20px;
         background-color: #0560E8;
     }
 }
