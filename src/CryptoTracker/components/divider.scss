@@ -1,0 +1,60 @@
+
+.divider {
+    font-weight: 700;
+    color: #5a5a5a;
+    font-size: 14px;
+    font-family: 'Roberto', sans-serif;
+
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+
+    width: 100%;
+
+    &__header {
+        position: relative;
+        top: -3px;
+        left: 225px;
+    }
+
+    &__time {
+        position: relative;
+        top: -3px;
+        left: 810px;
+
+        &__hidden {
+            display: none;
+        }
+    }
+
+    &__refresh {
+        color: #7B61FF;
+        size: 14px;
+        position: relative;
+        left: 1069px;
+        top: 2px;
+        
+        &:hover {
+            cursor: pointer;
+        }
+
+        &__hidden {
+            visibility: hidden;
+            cursor: default;
+        }
+    }
+}
+
+.bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    &__bar {
+        width: 994px;
+        height: 2px;
+        margin-bottom: 46px;
+        background-color: #0560E8;
+    }
+}
