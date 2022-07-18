@@ -1,5 +1,6 @@
 import LookupForm from './LookupForm';
 import ResultsSection from './ResultsSection';
+import Footer from './Footer';
 import "./app.scss";
 
 // Use this component as the top level for the Crypto Tracker App
@@ -25,9 +26,10 @@ import "./app.scss";
 
 const App = () => (
   <div className="app">
-    <h1 className="app__header">Crypto Price Checker</h1>
+    <h1 className="app__header">Crypto Lookup</h1>
     <LookupForm />
     <ResultsSection />
+    <Footer label={'Crypto Lookup - Created by Louis Griffin using React, Redux, API, Sass, and Github Pages'} link={"https://github.com/louisgrif/cryptolookup"} />
   </div>
 )
 export default App;

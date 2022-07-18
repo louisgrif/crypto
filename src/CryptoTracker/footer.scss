@@ -1,0 +1,22 @@
+.footer {
+    font-weight: 700;
+    color: #5a5a5a;
+    font-size: 12px;
+    font-family: 'Roberto', sans-serif;
+
+    display: inline-block;
+    margin: 0; padding: 0;
+
+    position: fixed;
+    margin-left: 15vw;
+    bottom: 5px;
+    
+    display: flex;
+    justify-content: left;
+
+    &__label {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

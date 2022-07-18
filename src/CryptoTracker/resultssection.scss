@@ -1,6 +1,6 @@
 
 .results {
-    max-width: 100%;
+    max-width: 80vw;
     font-weight: 700;
     display: flex;
     flex-wrap: wrap;
@@ -10,10 +10,9 @@
     justify-content: center;
     align-content: center;
     justify-self: center;
-    align-self: center;
     font-family: 'Roberto', sans-serif;
-
-    background-color: #ddf;
+    margin-left: 10vw;
+    overflow-x: hidden;
 
     &__cardsection {
         width: 100%;
