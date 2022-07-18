@@ -1,5 +1,3 @@
-## Crypto Lookup
+## [Crypto Lookup](louisgrif.github.io/cryptolookup)
 
-# Created by Louis Griffin using React, Redux, Sass, and Github Pages.
-
-louisgrif.github.io/cryptolookup
+# Created using React, Redux, Sass, and Github Pages.
