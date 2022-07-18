@@ -1,3 +1,2 @@
-## [Crypto Lookup](louisgrif.github.io/cryptolookup)
-
-# Created using React, Redux, Sass, and Github Pages.
+## [Crypto Lookup](www.louisgrif.github.io/cryptolookup)
+Created using React, Redux, Sass, and Github Pages.
